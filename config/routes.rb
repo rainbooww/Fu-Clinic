@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   get 'gallery' => 'pages#gallery'
   get 'blog' => 'pages#blog'
   get 'contact' => 'pages#contact'
-  get 'previous' => 'pages#previous'
+  get 'story' => 'pages#story'
   get 'next' => 'pages#next'
 end
